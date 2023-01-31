@@ -51,4 +51,4 @@ function animate (){
     effect.symbol.forEach(symbol => symbol.draw(ctx))
     requestAnimationFrame(animate)
 }
-// animate()  
+animate()  
